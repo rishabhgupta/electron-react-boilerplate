@@ -1,0 +1,1 @@
+export const GET_MANIFEST_FILE = 'GET_MANIFEST_FILE';

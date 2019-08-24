@@ -1,0 +1,45 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "Electron timer app",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "electron": "electron ."
+  },
+  "author": "Rallycoding",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "electron": "~6.0.1",
+    "electron-devtools-installer": "^2.2.4",
+    "prop-types": "^15.7.2",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-es2016": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-2": "^7.0.0",
+    "fluent-ffmpeg": "^2.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-duration-format": "^1.3.0",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.1",
+    "react-dom": "^16.8.6",
+    "react-dropzone": "^3.12.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
